@@ -1,0 +1,42 @@
+[project]
+name = "stroke"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Matas Zukas",email = "matasz89@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "scikit-learn (>=1.7.1,<2.0.0)",
+    "imbalanced-learn (>=0.14.0,<0.15.0)",
+    "pandas (>=2.3.2,<3.0.0)",
+    "numpy (>=2.3.2,<3.0.0)",
+    "scipy (>=1.16.1,<2.0.0)",
+    "statsmodels (>=0.14.5,<0.15.0)",
+    "missingno (>=0.5.2,<0.6.0)",
+    "ipykernel (>=6.30.1,<7.0.0)",
+    "update (>=0.0.1,<0.0.2)",
+    "seaborn (>=0.13.2,<0.14.0)",
+    "matplotlib (>=3.10.5,<4.0.0)",
+    "pickleshare (>=0.7.5,<0.8.0)",
+    "pyampute (>=0.0.3,<0.0.4)",
+    "lightgbm (>=4.6.0,<5.0.0)",
+    "scikit-optimize (>=0.10.2,<0.11.0)",
+    "eli5 (>=0.16.0,<0.17.0)",
+    "dill (==0.3.9)",
+    "pyale (>=1.2.0,<2.0.0)",
+    "category-encoders (>=2.8.1,<3.0.0)",
+    "interpret (>=0.7.2,<0.8.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+autopep8 = "^2.3.2"
+flake8 = "^7.3.0"
+nbqa = "^1.9.1"
+
