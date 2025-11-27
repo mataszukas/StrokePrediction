@@ -1,0 +1,1 @@
+{"model_variable": "lsvc_calibrated", "model_class": "CalibratedClassifierCV", "features": ["gender", "age", "hypertension", "heart_disease", "ever_married", "work_type", "Residence_type", "avg_glucose_level", "bmi", "smoking_status"], "random_state": 42, "model_version": "6813488"}
