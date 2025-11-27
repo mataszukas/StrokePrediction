@@ -1,7 +1,7 @@
 - # 🩺 Stroke Prediction — README
 
 - ## Stroke Prediction UI
-   - View Notebook in Google Colabs to display Plotly-based EBM plots: [Notebook](https://colab.research.google.com/drive/1Pxv_PBF13RxKFvxLJ4y-CfiuXESRCeoy?usp=sharing)
+   - View Notebook in Google Colabs to display Plotly-based EBM plots: [Notebook](https://drive.google.com/file/d/1kfkipvcY8DblwfGc4QJ6TfIppmcwjCy5/view?usp=sharing)
    - Browser UI for use: [Stroke Prediction App](https://stroke-prediction.azurewebsites.net/) (Disabled due to free-trial on Azure ending)
    - Provides form and CSV upload for input data to the deployed model.
 
