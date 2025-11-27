@@ -40,7 +40,7 @@
 - stroke_prediction.ipynb — main analysis and training notebook.
 - .github/
   - workflows/
-     - main_stroke-prediction.yml - Add or update the Azure App Service build and deployment workflow config (automatically added)
+     - main_stroke-prediction.yml - Add or update the Azure App Service build and deployment workflow config (automatically added/disabled and hidden due to usage in separate private repo)
 - scripts/
   - app.py — FastAPI service (endpoints: `/health`, `/load-model`, `/predict`, `/ui`).
   - templates/index.html — small browser UI for predictions / CSV upload.
